@@ -3,7 +3,7 @@ import requests
 import urllib.parse
 
 def download_model_if_not_exists():
-    model_path = "resnet50_multilabel.onnx"
+    model_path = "model_resnet50_multi.onnx"
     if os.path.exists(model_path):
         print("model as ghbl ")
         return
@@ -38,7 +38,7 @@ import numpy as np
 # ============================================
 # تنظیمات
 # ============================================
-MODEL_PATH = r"C:\Users\E-PART.iR\Desktop\Detect_shi\model_onnx\model_resnet50_multi.onnx"
+MODEL_PATH = "model_resnet50_multi.onnx"
 CLASSES_PATH = "classis_data.txt"
 INPUT_SIZE = 224
 DEVICE = torch.device("cpu")
