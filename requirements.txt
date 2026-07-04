@@ -1,0 +1,6 @@
+onnxruntime
+gradio
+pillow
+torchvision
+numpy
+requests
