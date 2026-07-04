@@ -1,52 +1,3 @@
-Challenge Solution
-Limited data Used transfer learning with ImageNet‑pretrained ResNet50
-Background bias Removed backgrounds and replaced them with 10 different colors for each image
-Multiple objects per image Used multi‑label classification with BCEWithLogitsLoss
-Large model size Converted to ONNX (~100 MB) for efficient deployment
-Deployment memory limit (512 MB) Removed heavy dependencies (torchvision) and used manual preprocessing
-
----
-
-📈 Future Improvements
-
-· Add more classes (e.g., from ImageNet)
-· Train on a larger dataset
-· Use YOLO for object detection with bounding boxes
-· Add video support for real‑time detection
-
----
-
-📄 License
-
-MIT
-
----
-
-🤝 Connect with Me
-
-· GitHub: https://github.com/hatamzadeh86
-· LinkedIn: https://www.linkedin.com/in/amir-mohammad-hatemzadeh-44b2a138b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BvULhas3VTauzoP7WztIUTA%3D%3D
-· Email: activedirectoryn@gmail.com
-
----
-
-⭐ If you find this project useful, please give it a star on GitHub!
-
----
-
-This README clearly explains:
-
-1. ✅ Why background removal was done
-2. ✅ Why 10 different backgrounds were added
-3. ✅ The full pipeline from data to deployment
-4. ✅ Results and metrics
-5. ✅ How to run the project
-
-Let me know if you want any changes! 🚀
-
-Here's a professional English README for your GitHub repository that highlights all the work you've done:
-
----
 
 🧠 Multi‑Label Object Detection with ResNet50 & ONNX
 
@@ -172,3 +123,39 @@ Pillow / NumPy Image processing & data handling
 ---
 
 🎯 Challenges & Solutions
+
+Challenge Solution
+Limited data Used transfer learning with ImageNet‑pretrained ResNet50
+Background bias Removed backgrounds and replaced them with 10 different colors for each image
+Multiple objects per image Used multi‑label classification with BCEWithLogitsLoss
+Large model size Converted to ONNX (~100 MB) for efficient deployment
+Deployment memory limit (512 MB) Removed heavy dependencies (torchvision) and used manual preprocessing
+
+---
+
+📈 Future Improvements
+
+· Add more classes (e.g., from ImageNet)
+· Train on a larger dataset
+· Use YOLO for object detection with bounding boxes
+· Add video support for real‑time detection
+
+---
+
+📄 License
+
+MIT
+
+---
+
+🤝 Connect with Me
+
+· GitHub: https://github.com/hatamzadeh86
+· LinkedIn: https://www.linkedin.com/in/amir-mohammad-hatemzadeh-44b2a138b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_leia_post_summary%3By%2FrCjr9vQ%2F%2BGH0P1W667Qg%3D%3D
+· Email: activedirectoryn@gmail.com
+
+---
+
+⭐ If you find this project useful, please give it a star on GitHub!
+
+---
