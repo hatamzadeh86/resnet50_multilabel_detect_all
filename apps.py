@@ -1,14 +1,3 @@
-import torch
-import torch.nn as nn
-import torchvision.transforms as transforms
-import torchvision.models as models
-from PIL import Image
-import gradio as gr
-import os
-import onnxruntime as ort
-import numpy as np
-
-
 import os
 import requests
 import urllib.parse
@@ -36,18 +25,21 @@ def download_model_if_not_exists():
 download_model_if_not_exists()
 
 
-
-
-
-
-
-
+import torch
+import torch.nn as nn
+import torchvision.transforms as transforms
+import torchvision.models as models
+from PIL import Image
+import gradio as gr
+import os
+import onnxruntime as ort
+import numpy as np
 
 # ============================================
 # تنظیمات
 # ============================================
 MODEL_PATH = r"C:\Users\E-PART.iR\Desktop\Detect_shi\model_onnx\model_resnet50_multi.onnx"
-CLASSES_PATH = r"C:\Users\E-PART.iR\Desktop\Detect_shi\classis_data.txt"
+CLASSES_PATH = "classis_data.txt"
 INPUT_SIZE = 224
 DEVICE = torch.device("cpu")
 
